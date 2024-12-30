@@ -1,0 +1,13 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DynamicCalculator.MainPage">
+    
+    <VerticalStackLayout Padding="10">
+        <Label Text="Enter Numbers and Select an Operation" FontSize="18" />
+        <Entry x:Name="Number1Entry" Placeholder="Enter Number 1" Keyboard="Numeric" />
+        <Entry x:Name="Number2Entry" Placeholder="Enter Number 2" Keyboard="Numeric" />
+        <Picker x:Name="OperationPicker" Title="Select Operation" />
+        <Button Text="Calculate" Clicked="OnCalculateClicked" />
+        <Label x:Name="ResultLabel" FontSize="18" Text="Result will be displayed here" />
+    </VerticalStackLayout>
+</ContentPage>
