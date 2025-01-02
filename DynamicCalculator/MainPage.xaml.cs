@@ -1,5 +1,5 @@
 ﻿using Microsoft.Maui.Controls;
-
+//Kalkulator - poprawnie przedstawia wyniki
 namespace DynamicCalculator;
 
 public partial class MainPage : ContentPage
